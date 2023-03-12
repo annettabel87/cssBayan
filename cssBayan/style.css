@@ -59,9 +59,16 @@ body {
     color: #000;
 }
 
-.bayan__img {
-    width: 45rem;
+.bayan__img {    
     height: auto;
+    opacity: 0;
+    width: 0;
+    transition:  1s;
+}
+
+.bayan__input:checked ~ .bayan__img {
+    opacity: 1;
+    width: 45rem;
 }
 
 .bayan__text {
