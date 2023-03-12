@@ -30,7 +30,12 @@ body {
 }
 
 .bayan__label {
-cursor: pointer;}
+    cursor: pointer;
+    border-top: 2px solid #ccc;
+    position: relative;
+    text-align: center;
+    padding-bottom: 1rem;
+}
 
 .bayan__input {
     appearance: none;
@@ -40,4 +45,16 @@ cursor: pointer;}
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+.bayan__img {
+    width: 45rem;
+    height: auto;
+}
+
+.bayan__text {
+    text-align: left;
 }
