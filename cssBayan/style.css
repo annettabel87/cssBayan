@@ -8,22 +8,36 @@ body {
     margin: 0 auto;
     background-color: cornsilk;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 24px;
+    font-size: 10px;
     color: #000000;
 }
 
 .container {
     width: 85%;
-    max-width: 1920px;
+    max-width: 80rem;
     text-align: left;
     margin:  auto;
 }
 
 .title {
-    font-size: 45px;
+    font-size: 3rem;
 }
 
 .bayan  {
     display: flex;
     flex-direction: column;
+    font-size: 2rem;
+}
+
+.bayan__label {
+cursor: pointer;}
+
+.bayan__input {
+    appearance: none;
+    width: 3rem;
+    height: 3rem;
+    background-image: url('assets/plus_icon.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
 }
