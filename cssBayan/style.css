@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    scroll-behavior:smooth;
+}
+
+body {
+    height: 100vh;
+    margin: 0 auto;
+    background-color: cornsilk;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    color: #000000;
+}
+
+.container {
+    width: 85%;
+    max-width: 1920px;
+    text-align: left;
+    margin:  auto;
+}
+
+.title {
+    font-size: 45px;
+}
+
+.bayan  {
+    display: flex;
+    flex-direction: column;
+}
