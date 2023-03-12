@@ -54,6 +54,11 @@ body {
 .bayan__input:checked {
     background-image: url('assets/close_icon.svg');
 }
+
+.bayan__input:checked ~ .bayan__text {
+    color: #000;
+}
+
 .bayan__img {
     width: 45rem;
     height: auto;
@@ -61,5 +66,8 @@ body {
 
 .bayan__text {
     text-align: left;
+    color: rgb(76, 76, 202);
 }
+
+
 
