@@ -29,6 +29,7 @@ body {
     font-size: 2rem;
 }
 
+
 .bayan__label {
     cursor: pointer;
     border-top: 2px solid #ccc;
@@ -47,9 +48,12 @@ body {
     background-size: contain;
     position: absolute;
     top: 1rem;
-    right: 1rem;
+    right: 1rem;    
 }
 
+.bayan__input:checked {
+    background-image: url('assets/close_icon.svg');
+}
 .bayan__img {
     width: 45rem;
     height: auto;
@@ -58,3 +62,4 @@ body {
 .bayan__text {
     text-align: left;
 }
+
